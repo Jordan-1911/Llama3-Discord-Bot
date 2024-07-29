@@ -1,4 +1,4 @@
-# Ignore config file containing sensitive information
+# Ignore config file
 config.py
 
 # Python-related ignores
@@ -10,15 +10,13 @@ __pycache__/
 venv/
 env/
 .env
+llama3_env/
 
-# IDE-specific files (optional, but often helpful)
+# IDE-specific files:
 .vscode/
 .idea/
 
 # OS-specific files
 .DS_Store
 Thumbs.db
-
-# Ignore pip env
-llama3/
 
