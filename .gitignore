@@ -1,0 +1,24 @@
+# Ignore config file containing sensitive information
+config.py
+
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE-specific files (optional, but often helpful)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore pip env
+llama3/
+
